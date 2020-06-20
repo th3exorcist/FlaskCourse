@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 
-def init_app():
+def init_app(app):
     @app.route("/")
     def hello():
         return "hello world"
