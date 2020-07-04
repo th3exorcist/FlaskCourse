@@ -27,6 +27,27 @@ app/style
 
 
 ```
-Exercise 3
+Github
+
 
 ```
+
+"""
+git remote add upstream  link-repo
+
+git fetch all
+
+"""
+
+
+```
+
+CI
+
+```
+
+https://github.com/features/actions
+
+
+https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started/?view=azure-devops
+

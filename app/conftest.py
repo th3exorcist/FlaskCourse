@@ -1,6 +1,8 @@
 import pytest
-from app import iPudim
+from delivery.app import create_app
 
-@apitest.fixture(schope="function")
+
+@pytest.fixture(scope="module")
 def app():
+    """Instance of Main flask app"""
     return create_app()
